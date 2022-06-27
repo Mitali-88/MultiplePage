@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- this link is used for fonts -->
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- this link is used for font -->
+</head>
+
+<body>
+    <section class=" sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <!-- this  is used for icons -->
+                <ul>
+                    <li><a href="index.html">HOME</a>
+                    <li><a href="about.html">ABOUT</a>
+                    <li><a href="course.html">COURSE</a>
+                    <li><a href="blog.html">BLOG</a>
+                    <li><a href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    <!-- -------course---- -->
+    <section class="course">
+        <h1>Course we offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In rerum totam voluptate eveniet nemo ratione
+            deserunt delectus ullam, voluptas similique.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt cupiditate exercitationem facere.
+                    Architecto odit culpa voluptas libero maiores numquam natus eveniet cum, accusamus aut eius, dicta
+                    magnam debitis inventore eligendi eos. Consequatur nam cum ullam illo necessitatibus nisi. Dolorum,
+                    hic.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt cupiditate exercitationem facere.
+                    Architecto odit culpa voluptas libero maiores numquam natus eveniet cum, accusamus aut eius, dicta
+                    magnam debitis inventore eligendi eos. Consequatur nam cum ullam illo necessitatibus nisi. Dolorum,
+                    hic.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt cupiditate exercitationem facere.
+                    Architecto odit culpa voluptas libero maiores numquam natus eveniet cum, accusamus aut eius, dicta
+                    magnam debitis inventore eligendi eos. Consequatur nam cum ullam illo necessitatibus nisi. Dolorum,
+                    hic.</p>
+            </div>
+        </div>
+    </section>
+    <!-- ----------facilities------- -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam magni fugit doloribus ab! Molestias, </p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.jpg">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis consectetur molestiae iste ut?
+                    Tempora quae, commodi sapiente minus amet cumque.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/playground.jpg">
+                <h3>Largest Playground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis consectetur molestiae iste ut?
+                    Tempora quae, commodi sapiente minus amet cumque.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.jpg">
+                <h3>Tasty And Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis consectetur molestiae iste ut?
+                    Tempora quae, commodi sapiente minus amet cumque.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ---------footer---- -->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eum, voluptas dolores consequuntur
+            expedita, nulla quis delectus,<br> vitae molestias dolore a doloremque pariatur voluptate totam ipsum qui
+            dicta necessitatibus distinctio.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+        <p>Made By<i class="fa fa-heart-o"></i> Mitali Lakhere </p>
+    </section>
+
+
+    <!-- Javascript for toggle memu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.rigth = "0";
+
+        }
+        function hideMenu() {
+            navLinks.style.rigth = "-200px";
+
+        }
+    </script>
+</body>
+
+</html>
